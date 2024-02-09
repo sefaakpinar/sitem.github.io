@@ -1,0 +1,93 @@
+
+body {
+	background-image: url(resimler/triangles_pattern.webp);
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	height: auto;
+	width: 870px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	padding: 0px;
+	height: 150px;
+	width: 870px;
+	margin-bottom: 30px;
+}
+
+nav {
+	height: 35px;
+	width: 870px;
+	margin-bottom: 5px;
+}
+
+nav ul {
+	margin: auto;
+	padding: 0px;
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+
+}
+nav ul li a {
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: bold;
+	color: white;
+	text-decoration:none;
+	background-color: #0091ff;
+	text-align: center;
+	display: block;
+	width: 108px;
+	margin-top: 5px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #ff5e00;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a:hover {
+	background-color: #ff5e00;
+	border-top-width: 5px;
+	border-top-style: solid ;
+	border-top-color: #ff5e00;
+	margin-top: 0px;
+	height:1px;
+}
+
+section {
+	background-color: white;
+	height: auto;
+	width: 860px;
+	padding-top: 5px;
+	float: left;
+}
+footer {
+	background-color: #0091ff;
+	float: left;
+	height: 50px;
+	width: 870px;
+	padding-top: 3px;
+	margin: auto;
+}
+
+#iletisim{
+	width: 30px;
+	height: 30px;
+padding: 10px;
+list-style: 50px;
+}
+
+#res{
+	width: 500px;
+	height: 300px;
+	margin: auto;
+}
+#icerik{
+    stroke-width: 30px;
+}
